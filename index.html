@@ -1,11 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Resume</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myself</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.2.0/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style/Myself.css">
 </head>
 <body>
-   <h1>123</h1>
+    <div class="wrapper">
+
+        <!-- header -->
+        <header>
+
+            <ul class="lanG">
+                <li>
+                    <a href="Myself.html"><span>中文</span></a>
+                    <a href="MyselfEN.html"><span>English</span></a>
+                </li>
+            </ul>
+            
+            <div class="picture">
+                <img src="images/Hsun.jpg" alt="">
+            </div>
+
+            <div class="name">
+                <h1>吳建勳<span>(Eden)</span></h1>
+            </div>
+
+        </header>
+
+        <!-- btn -->
+        <div class="btn">
+            <i class="fa-solid fa-bars"></i>
+
+            <ul class="nav">
+                <li id="ch1"><a href="javascript:;">自介</a></li>
+                <li id="ch2"><a href="javascript:;">經歷</a></li>
+                <li id="ch3"><a href="javascript:;">專業</a></li>
+            </ul>
+        </div>
+
+        <!-- Swiper -->
+        <div class="mySelf swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">男，31歲，科大畢業<br>我自己創業過，我的執行能力強、<br>處事態度認真、危機處理沉穩，<br>相信在職場上能有機會發揮這些特長。<br>本身積極向上，正在巨匠線上提昇英文的語言能力，<br>有強大的責任感，喜歡完成事物的成就感，<br>未來希望透過職場不斷累積個人能力。</div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="exp swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">儲備主管 - 2022<br>新覺吉業有限公司（建材／傢俱批發業）<br>經營管理主管 台中市神岡區<br>這是份外銷傢俱的批發業<br>廠外從計設-打模-客戶下單-製造-檢驗-修復-包裝到最後上櫃<br>場內從訂料-檢驗-倉儲-試組到最後廠商驗收<br>工作內容非常豐富且有趣<br>為了加速作業，堆高機就在自己上網摸索下學會開了<br>原本是要接替舅舅的廠，但家中出了點狀況就回家了</div>
+                <div class="swiper-slide">焊接技師 - 2021<br>松庚機械有限公司（金屬加工用機械製造修配業）<br>焊接人員 電銲、氬焊、洗床 新北市板橋區<br>想精進技能所以下班後找了一份兼職<br>在這有各形式的鐵器讓我完成焊接<br>沒想到焊接的手法還被同事競相效仿<br>老闆很欣賞我<br>喜歡把較難完成的焊接交由我完成<br>兼職和正職同時進步著的感覺讓我很愉快</div>
+                <div class="swiper-slide">儲備主管 - 2018<br>玖聯實業有限公司（其他金屬相關製造業）<br>焊接人員 新北市三重區<br>因家庭因素收起了自己的事業來到這<br>在這學到焊接、雷射切割、折床、沖床和AUTO CAD繪圖<br>各項技術性的經驗<br>原本是要和同輩一起接下經營<br>但因上一輩留下的經營權問題而離開</div>
+                <div class="swiper-slide">老闆 - 2016<br>RGB創意炒冰捲（餐飲業）<br>執行長 台中市北區<br>這份經驗真的非常的寶貴<br>一間店從無到有、到營運，每一刻都刻骨銘心<br>一路走來陸續有支持者加盟<br>每一步都讓我學到很多寶貴的經驗<br>很感謝大家，另外一提，有上新聞哦<br>下方連結影片中42秒受訪的就是我
+                    <a id="movie" href="https://www.facebook.com/RGBicecreamTaichung/videos/481560112190135">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="swiper-slide">不動產經紀人 - 2015<br>永慶房屋仲介股份有限公司（不動產經營業）<br>不動產經紀人 新北市樹林區<br>完成不動產相關事務<br>幫助他人成家、換房圓夢<br>在這份工作學到聆聽他人需求和團隊合作<br>有幸在短短職涯中、蟬連兩個月的新人王<br>且在第三個月就與前輩的合作下就共同售出人生中第一間不動產<br>真的是一項不錯的工作經歷</div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+        <div class="pro swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><span>網頁前端：</span>HTML5/CSS3/RWD/JS/JQuery<br><span>程式設計類：</span>C++<br><span>辦公室應用類：</span>Excel、Word、PowerPoint<br><span>工程製圖類：</span>AutoCad 2D<br><span>影像處理類：</span>Adobe Photoshop</div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <p><i class="fa-solid fa-phone-flip"></i>0911-573-627 (08:00 - 22:00)</p>
+        </footer>
+
+    </div>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.2.0/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="javascript/Myself.js"></script>
 </body>
 </html>
